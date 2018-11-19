@@ -7,3 +7,5 @@ let vowel_count = 'combien de voyelles ?'.match(/[aeiouy]/gi);
 console.log(vowel_count.length);
 
 /* 3. Écris une fonction reverse() qui prend un string et qui renvoie les caractères en position inverse */
+let reverse = 'Bonjour monde !'.split("").reverse().join("");
+console.log(reverse);
